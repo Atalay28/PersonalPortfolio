@@ -23,3 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+  document.addEventListener("DOMContentLoaded", function () {
+    var sakaryaButton = document.getElementById("sakaryaUniButton");
+    sakaryaButton.addEventListener("click", function () {
+      window.location.href = "https://www.sakarya.edu.tr/";
+    });
+  });

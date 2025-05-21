@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Sayfası</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/login.js" defer></script>
+<link rel="stylesheet" href="styles/login.css">
+<body>
+
+<div class="container">
+  <h2 class="text-center text-white">Login</h2>
+  <form id="loginForm" action="php/login1.php" method="post">
+    <div class="mb-3">
+      <label for="email" class="form-label text-white">E-posta:</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="E-posta">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label text-white">Şifre:</label>
+      <input type="password" class="form-control" id="password" name="password" placeholder="Şifre">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Giriş Yap">
+</form>
+</div>
+
+</body>
+</html>

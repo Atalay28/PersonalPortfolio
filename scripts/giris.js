@@ -22,6 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://youtu.be/PCiWTRg-itY";
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+  var moreAboutMeButton = document.querySelector(".about2 .button button");
+
+  moreAboutMeButton.addEventListener("click", function () {
+    window.location.href = "resume.html";
+  });
+  });
   
   document.addEventListener("DOMContentLoaded", function () {
     var sakaryaButton = document.getElementById("sakaryaUniButton");
